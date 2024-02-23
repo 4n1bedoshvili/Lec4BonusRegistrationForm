@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <form action="/index.html" method="get">
+        <table border="2" style="margin: 0 auto;">
+            <tr>
+                <td colspan="2" style="text-align: center; background-color: antiquewhite; color:red; font-size: larger; font-weight: bold;">Registration Form</td>
+            </tr>
+            <tr>
+                <td style="background-color: aquamarine;"><label for="name">Enter Name</label></td>
+                <td style="background-color: aquamarine;" >
+                    <input type="text" name="name" id="name" />
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: aquamarine;" ><label for="password">Enter Password</label></td>
+                <td style="background-color: aquamarine;" ><input type="password" name="password" id="password" /></td>
+            </tr>
+            <tr>
+                <td style="background-color: aquamarine;" ><label for="address">Enter Address</label></td>
+                <td style="background-color: aquamarine;" >
+                    <textarea name="address" id="address" cols="20" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: aquamarine;" >Select Game</td>
+                <td style="background-color: aquamarine;" >
+                    <input type="checkbox" name="game" id="hockey" value="hockey" />
+                    <label for="hockey">Hockey</label><br />
+                    <input type="checkbox" name="game" id="football" value="football" />
+                    <label for="football">Football</label><br />
+                    <input
+                    type="checkbox"
+                    name="game"
+                    id="badminton"
+                    value="Badminton"
+                    />
+                    <label for="badminton">Badminton</label><br />
+                    <input type="checkbox" name="game" id="cricket" value="cricket" />
+                    <label for="cricket">Cricket</label><br />
+                    <input
+                    type="checkbox"
+                    name="game"
+                    id="volleyball"
+                    value="volleyball"
+                    />
+                    <label for="volleyball">Volleyball</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: aquamarine;" >Gender</td>
+                <td style="background-color: aquamarine;" >
+                    <input type="radio" name="gender" id="male" value="male" />
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female" />
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: aquamarine;" >Select your age</td>
+                <td style="background-color: aquamarine;" >
+                    <select name="age" id="age">
+                    <option value="">select</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: aquamarine;" >select photo</td>
+                <td style="background-color: aquamarine;" >
+                    <input type="file" name="photo" id="photoUpload" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="background-color: aquamarine; text-align: center;">
+                    <button type="button">Click Me</button>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit Form</button>
+                </td>
+            </tr>
+        </table>
+    </form>    
+  </body>
+</html>
